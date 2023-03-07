@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+#8da1b9
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background: #fffff5;
+}
+
+#hero { 
+   background-image: url(images/manctram.jpg);
+   height: 400px;
+   background-size: cover; 
+   background-position: center;
+   color: whitesmoke;
+   text-shadow: 0 0 5px black;
+}
+
+#header {
+    margin: 0;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    border-bottom: 5px solid #ffbe86;
+}
+
+#tagline {
+    margin-top: 2px;
+    font-size: 25px; 
+}
+
+.subheader {
+    padding-top: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.activities {
+    background: antiquewhite;
+}
+    
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.food {
+    background: #8da1b9;
+}
+
+.guide-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffbe86;
+    border-bottom: 10px solid #8da1b9;
+}
+
+#jess-img {
+    display: flex;
+    flex-direction: column;
+} 
+
+.guide-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-top: 1px;
+    padding: 0 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+img {
+    width: 150px;
+    border: 5px solid #ffbe86; 
+    height: 175px;
+    border-radius: 50%;
+    opacity: 1.0;
+} 
+
+img:hover {
+    opacity: 0.4;
+}
+
+.footer {
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    background: lightgray;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-text {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+} 
+
+.footer-img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 0%;
+    opacity: 1.0;
+}
+
+.footer-img:hover {
+    opacity: 0.4;
+}
+
+
+
